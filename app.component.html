@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <div class="container-fluid">
+      <a href=""><img src="assets/Images/logo.jpg"></a>
+        <div class="text-logo">
+            <h1>AMANDA TOUR & TRAVELS</h1>
+            <div class="text-logotext"><p>Let's plan the trip of your dreams. </p></div>
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/homepage']" routerLinkActive="router-link-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/login']" routerLinkActive="router-link-active">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/login-page']" routerLinkActive="router-link-active">Signup</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <router-outlet></router-outlet>
+  
